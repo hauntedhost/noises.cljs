@@ -1,0 +1,21 @@
+{
+  "name": "noises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "shadow-cljs watch app;",
+    "release": "shadow-cljs release app;",
+    "clean": "rm -rf target; rm -rf public/js;"
+  },
+  "author": "sean omlor",
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "^2.4.10"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
